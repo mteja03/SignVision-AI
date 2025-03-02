@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(30, 58, 138, 100);
+    color: white;
+}
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 20px;
+	height: 120px;
+	
+  }
+
+  header div {display: flex; 
+	align-items: center;
+	justify-content: center;
+	padding-top: 5px;
+  }
+
+  header img{
+	margin-top: -30px;
+	width: 130px;
+	height:130px;;
+  }
+  
+  header h1 {
+	color: black !important;
+	margin-top: 5px; 
+	font-size: 60px;
+	text-align: center;
+	font-family: Calibri, sans-serif;
+  }
+  
+  header p {
+	color: black !important;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font-size: 25px;
+	text-align: center;
+	font-family: Calibri, sans-serif;
+	margin-top: -30px;
+  }
+
+
+.parent {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.camera {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.range_form {
+    align-self: center;
+    margin-top: -40px;
+}
+
+.range_form h2 {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+
+}
