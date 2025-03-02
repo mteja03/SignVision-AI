@@ -5,7 +5,7 @@ html {
 
 
 body {
-  background-color: rgba(97, 76, 238, 255);
+  background-color: rgba(30, 58, 138, 100);
 
 }
 
@@ -13,21 +13,21 @@ body {
 header {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 10%;
   margin-top: 80px;
   background-color: white;
   border-radius: 12px;
 }
 
 header h1 {
-  color: black;
+  color: black !important;
   font-size: 60px;
   text-align: center;
   font-family: Calibri, sans-serif;
 }
 
-p {
-  color: white;
+header p {
+  color: black !important;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
@@ -36,6 +36,8 @@ p {
   font-family: Calibri, sans-serif;
   margin-top: 60px;
 }
+
+
 
 .split {
   display: flex;
